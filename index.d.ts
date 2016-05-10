@@ -1888,12 +1888,6 @@ declare namespace d3 {
     interface Zoom<Datum> {
       (selection: Selection<Datum>): void;
 
-      xExtent(): [number, number];
-      xExtent(extent: [number, number]): Zoom<Datum>;
-
-      yExtent(): [number, number];
-      yExtent(extent: [number, number]): Zoom<Datum>;
-
       translate(): [number, number];
       translate(translate: [number, number]): Zoom<Datum>;
 
